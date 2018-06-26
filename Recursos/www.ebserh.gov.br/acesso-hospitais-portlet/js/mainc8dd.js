@@ -1,0 +1,1 @@
+$("#acesso-rapido-hospitais").chosen({no_results_text:"Nenhum Hospital encontrado",placeholder_text_multiple:"Acesso aos Hospitais Universitários",placeholder_text_single:"Acesso aos Hospitais Universitários",search_contains:true});$("#acesso-rapido-hospitais").on("change",function(a,c){var b=$(this).val();$(location).attr("href",b)});

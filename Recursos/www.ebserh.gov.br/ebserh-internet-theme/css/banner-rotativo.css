@@ -1,0 +1,404 @@
+/* ---------------------------------------------- SECOM ------------------------------------------------ */
+/* ---------- Larguras ---------- */
+/* ---------- Cores Gerais Padrao ---------- */
+/* Texto Corrido */
+/* Itens de cor verde claro */
+/* Itens de cor verde escuro */
+/* Itens brancos, como label de Em Destaque */
+/* Bordas cinza claro */
+/* Bordas cinza medio claro */
+/* Textos e icones cinza medio */
+/* Voltar para o topo */
+/* Textos e icones cinza escuro */
+/* Links no texto */
+/* Links no texto com Hover */
+/* Titulo de noticias */
+/* Itens do menu */
+/* Itens do menu de Relevancia */
+/* Titulo do menu */
+/* Linha acima do Titulo do Menu */
+/* Chapeu do texto */
+/* Titulo do portlet de noticias */
+/* Icones da Central de Conteudos */
+/* Textos do Rodape */
+/* Textos do Cabecalho */
+/* Breadcrumb */
+/* Fundo do Titulo do Menu e fundo da barra de Destaques */
+/* Fundo do rodape */
+/* Fundo da barra inferior do rodape */
+/* ---------- antigos - revisar ------------ */
+/* Texto geral */
+/* Links gerais */
+/* Hover dos links gerais */
+/* Menu */
+/* Titulo do menu */
+/* Linha divisoria entre os itens do menu */
+/* Fundo do segundo nivel do menu */
+/* Fundo do terceiro nivel do menu */
+/* Fundo do quarto nivel do menu */
+/* Fundo do quinto nivel do menu */
+/* Fundo selecionado do segundo nivel do menu */
+/* Fundo selecionado do terceiro nivel do menu */
+/* Fundo selecionado do quarto nivel do menu */
+/* Banner Rotativo */
+/* Credito da imagem do banner rotativo */
+/* Titulo do banner rotativo */
+/* Abstract do banner rotativo;
+
+
+/* Lista de Conteudos */
+/* Titulo da lista de conteudo */
+/* Texto da lista de conteudo */
+/* Texto do rodape da lista de conteudo */
+/* Fundo da lista de conteudo */
+/* Borda da lista de conteudo */
+/* Galeria de Video */
+/* Cor de todo texto da galeria de video */
+/* Fundo da galeria de video */
+/* Rodape da galeria de video */
+/* Borda da galeria de video */
+/* Modulo de Midias Cinza */
+/* Galeria de Albuns */
+/* Titulo da galeria de albuns */
+/* Abstract da galeria de albuns */
+/* Link do rodape da galeria de albuns */
+/* Fundo da galeria de albuns */
+/* Fundo da listagem de imagens da galeria */
+/* Borda da galeria de albuns */
+/* Borda da listagem de imagens da galeria */
+/* Borda das imagens da galeria de albuns */
+/* Galeria de Audio */
+/* Titulo da galeria de audio */
+/* Titulo do audio em reproducao */
+/* Texto da lista de audio */
+/* Link do rodape da galeria de audio */
+/* Fundo da galeria de audio */
+/* Fundo do bloco do player */
+/* Icone de audio da lista */
+/* Icone de navegacao do player */
+/* Borda da galeria de audio */
+/* Borda da lista de audio */
+/* ---------- Fontes Tipograficas ---------- */
+/* ---------- Tamanho de Texto ---------- */
+/* Topo */
+/* Atalhos de teclado */
+/* Denominacao do orgao */
+/* Titulo do portal */
+/* Subordinacao do orgao */
+/* Barra de acessibildade */
+/* Busca */
+/* Barra de servicos */
+/* Breadcrumbs */
+/* Menu */
+/* Links do menu de relevancia */
+/* Titulos do menu */
+/* Primeiro nivel do menu */
+/* Niveis do menu */
+/* Rodape */
+/* Titulo das colunas do rodape */
+/* Links das colunas do rodape */
+/* Banner Rotativo */
+/* Credito de imagem do banner rotativo */
+/* Titulo do banner rotativo */
+/* Abstract do banner rotativo */
+/* Lista de Conteudos */
+/* Titulo da lista de conteudo */
+/* Texto da lista */
+/* Link do rodape da lista de conteudo */
+/* Galeria de Video */
+/* Titulo da galeria de video */
+/* Titulo do video em destaque */
+/* Abstract do video em destaque */
+/* Titulo dos subdestaque de video */
+/* Link do rodape da galeria de video */
+/* Galeria de Albuns */
+/* Titulo da galeria de albuns */
+/* Abstract da galeria de albuns */
+/* Link do rodape da galeria de albuns */
+/* Galeria de Audio */
+/* Titulo da galeria de audio */
+/* Titulo do audio em reproducao */
+/* Texto da lista da galeria de audio */
+/* Link do rodape da galeria de audio */
+/* --------------------------------------- TEMPLATES SECOM ----------------------------------------- */
+/* ----- Template Branca ----- */
+/* Cores */
+/* Fundo primario */
+/* Fundo secundario */
+/* Cor primaria de links, titulos, bordas e etc. */
+/* Cor superior do gradiente */
+/* Cor inferior do gradiente */
+/* Texto do topo */
+/* Links de idiomas */
+/* Fundo do campo de busca */
+/* Icones das redes sociais */
+/* Links do breadcrumbs */
+/* Links do Menu de Relevancia */
+/* Titulos do menu */
+/* Linha dos titulos e itens destacados do menu */
+/* Linha dos itens do menu */
+/* Links do menu */
+/* Titulo das colunas do rodape */
+/* Itens das colunas do rodape */
+/* Borda lateral das colunas do rodape */
+/* Fundo do rodape */
+/* Fundo da barra de identidade digital do rodape */
+/* ----------------------------------------- ALTO CONTRASTE ---------------------------------------- */
+/* Cores */
+/* CSS for jQuery Orbit Plugin 1.2.3
+ * www.ZURB.com/playground
+ * Copyright 2010, ZURB
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ 
+ 
+/* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
+   ================================================== */
+#featured {
+  width: 492px;
+  height: 279px;
+  background: black url("../images/orbit/loading.gif") no-repeat center center;
+  overflow: hidden; }
+
+#featured.full {
+  width: 745px;
+  height: 185px; }
+
+#featured > img,
+#featured > div,
+#featured > a {
+  display: none; }
+
+/* CONTAINER
+   ================================================== */
+div.orbit-wrapper {
+  /*     width: 1px;
+      height: 1px; */
+  position: relative;
+  margin-bottom: 30px; }
+
+div.orbit {
+  /*     width: 1px;
+      height: 1px; */
+  position: relative;
+  overflow: hidden; }
+
+div.orbit > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+
+div.orbit > a {
+  border: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 0;
+  display: none; }
+
+.orbit > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+/* Note: If your slider only uses content or anchors,
+ you're going to want to put the width and height declarations 
+ on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+div.orbit-wrapper,
+div.orbit > a,
+.orbit > div,
+div.orbit > img,
+div.content {
+  width: 492px;
+  height: 279px;
+  background-size: 492px 279px; }
+
+div.full.orbit > a,
+.full.orbit > div,
+div.full.orbit > img,
+.full div.content {
+  width: 745px;
+  height: 185px;
+  background-size: 745px 185px; }
+
+/* TIMER
+   ================================================== */
+div.timer {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: .6;
+  cursor: pointer;
+  z-index: 1001; }
+
+span.rotator {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  background: url(../images/orbit/rotator-black.png) no-repeat;
+  z-index: 3; }
+
+span.mask {
+  display: block;
+  width: 20px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  overflow: hidden; }
+
+span.rotator.move {
+  left: 0; }
+
+span.mask.move {
+  width: 40px;
+  left: 0;
+  background: url(../images/orbit/timer-black.png) repeat 0 0; }
+
+span.pause {
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/orbit/pause-black.png) no-repeat;
+  z-index: 4;
+  opacity: 0; }
+
+span.pause.active {
+  background: url(../images/orbit/pause-black.png) no-repeat 0 -40px; }
+
+div.timer:hover span.pause,
+span.pause.active {
+  opacity: 1; }
+
+/* CAPTIONS
+   ================================================== */
+.orbit-caption {
+  display: none;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.orbit-wrapper .orbit-caption {
+  background: #000;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  color: #fff;
+  text-align: center;
+  padding: 7px 0;
+  font-size: 13px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100%; }
+
+/* DIRECTIONAL NAV
+   ================================================== */
+div.slider-nav {
+  display: block; }
+
+div.slider-nav span {
+  width: 30px;
+  height: 40px;
+  text-indent: -9999px;
+  position: absolute;
+  z-index: 1000;
+  top: 50%;
+  cursor: pointer; }
+
+.orbit-wrapper div.slider-nav span.right {
+  background-image: url(../images/orbit/right-arrow.png);
+  right: 0;
+  opacity: 0.2;
+  background-size: 30px 40px;
+  transition: opacity 1s; }
+
+.orbit-wrapper div.slider-nav span.left {
+  background-image: url(../images/orbit/left-arrow.png);
+  left: 0;
+  opacity: 0.2;
+  background-size: 30px 40px;
+  transition: opacity 1s; }
+
+.orbit-wrapper:hover div.slider-nav span.right, .orbit-wrapper:hover div.slider-nav span.left {
+  opacity: 0.6; }
+
+/* BULLET NAV
+   ================================================== */
+.orbit-bullets {
+  position: absolute;
+  z-index: 1000;
+  list-style: none;
+  bottom: -40px;
+  left: 50%;
+  margin-left: -50px;
+  padding: 0; }
+
+.orbit-bullets li {
+  float: left;
+  margin-left: 5px;
+  cursor: pointer;
+  color: #999;
+  text-indent: -9999px;
+  background: url(../images/orbit/bullets.jpg) no-repeat 4px 0;
+  width: 13px;
+  height: 12px;
+  overflow: hidden; }
+
+.orbit-bullets li.active {
+  color: #222;
+  background-position: -8px 0; }
+
+.orbit-bullets li.has-thumb {
+  background: none;
+  width: 100px;
+  height: 75px; }
+
+.orbit-bullets li.active.has-thumb {
+  background-position: 0 0;
+  border-top: 2px solid #000; }
+
+/* ----- Legenda ----- */
+.orbit-wrapper .legenda-banner {
+  position: absolute;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px 0px 20px;
+  width: 100%;
+  transition: opacity 1s;
+  opacity: 0.8; }
+
+.orbit-wrapper:hover .legenda-banner {
+  opacity: 1;
+  transition: opacity 1s; }
+
+.legenda-banner span {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 15px 40px 0px;
+  line-height: 18px; }
+
+.legenda-banner h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0px;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  line-height: 25px;
+  padding: 5px 40px 5px; }
+
+.link-do-banner {
+  display: block; }
+
+a.link-do-banner, a .legenda-banner span, a .legenda-banner h1 {
+  color: #333333; }
